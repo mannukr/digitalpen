@@ -19,30 +19,6 @@
           <div class="bar"></div>
         </div>
       </div>
-      <ul class="text-center text-capitalize nav-agile" data-aos="zoom-in-up">
-        <li>
-          <a href="index.html" class="active">home</a>
-        </li>
-        <li>
-          <a href="#choose" class="scroll">Why Choose Us</a>
-        </li>
-        <li>
-          <a href="#overview" class="scroll">Overview</a>
-        </li>
-        <li>
-          <a href="#pricing" class="scroll">Pricing</a>
-        </li>
-        <li>
-          <a href="#faq" class="scroll">Faq</a>
-        </li>
-        <li>
-          <a href="#contact" class="scroll">Contact</a>
-        </li>
-        <li>
-          <button type="button" class="btn w3ls-btn" data-toggle="modal" aria-pressed="false" data-target="#exampleModalCenter2">
-            Login
-          </button>
-        </li>
-      </ul>
+      {{ menu('frontend','frontend.includes.menus.main') }}
     </div>
   </nav>

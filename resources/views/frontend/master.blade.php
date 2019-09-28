@@ -80,19 +80,16 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title text-capitalize text-center" id="exampleModalLongTitle"> <i class="fab fa-blackberry"></i> Landing</h5>
+                    <h5 class="modal-title text-capitalize text-center" id="exampleModalLongTitle"> <i class="fab fa-blackberry"></i> Digitalpen.com</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <img src="images/banner.jpg" class="img-fluid mb-3" alt="Modal Image" />
-                    Vivamus eget est in odio tempor interdum. Mauris maximus fermentum arcu, ac finibus ante. Sed mattis risus at ipsum elementum,
-                    ut auctor turpis cursus. Sed sed odio pharetra, aliquet velit cursus, vehicula enim. Mauris porta aliquet magna, eget laoreet ligula.
-                    Sed mattis risus at ipsum elementum, ut auctor turpis cursus. Sed sed odio pharetra, aliquet.
-                </div>
+                    <img src="{{ asset('frontend/images/banner.jpg') }}" class="img-fluid mb-3" alt="Modal Image" />
+                   </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Save Changes</button>
+                    <!--<button type="button" class="btn btn-primary">Save Changes</button>-->
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
             </div>
